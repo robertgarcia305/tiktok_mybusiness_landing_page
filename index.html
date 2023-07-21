@@ -43,3 +43,172 @@
         </div>
     </body>
 </html>
+
+<!-- this is the vertical slideshow -->
+<!-- <div class="container-wrap">
+    <div class="container">
+      <div class="left-wrap">
+        <div class="img-1 img">IMG1</div>
+        <div class="img-2 img">IMG2</div>
+        <div class="img-3 img">IMG3</div>
+      </div>
+      <div class="right-wrap">
+        <div class="desc-wrap" id="desc">
+            <div class="desc-1">
+              <h3>Get started on TikTok instantly with Business Center</h3>
+              <p>Enjoy seamless collaboration across teams</p>
+            </div>
+            <div class="desc-2">
+              <h3>Uncover the right opportunities to boost your brand</h3>
+              <p>Enjoy seamless collaboration across teams</p>
+            </div>
+            <div class="desc-3">
+              <h3>Get started on TikTok instantly with Business Center</h3>
+              <p>Enjoy seamless collaboration across teams</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+<!-- * {
+  margin: 0px;
+  boz-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transiton: all 0.3s;
+}
+
+.container-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+  border: 1px solid red;
+  display: flex; 
+  height: 80vh;
+}
+
+.left-wrap, .right-wrap {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.left-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-2, .img-3 {
+  display: none;
+}
+
+.right-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.desc-wrap {
+  border: 1px solid red;
+  height: 200px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.desc-wrap div {
+  text-align: center;
+  height: 200px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desc-wrap h3 {
+  margin: 30px 0px;
+}
+
+.desc-wrap {
+  border: 1px solid red;
+  width: 1440px;
+  overflow: auto; /* Enable scrolling */
+}
+
+/* Hide default scrollbar for webkit-based browsers (e.g., Chrome, Safari) */
+.desc-wrap::-webkit-scrollbar {
+  width: 6px;
+}
+
+.desc-wrap::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.desc-wrap::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Hide default scrollbar for Firefox */
+.desc-wrap {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.desc-wrap::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.img:nth-child(1) {
+  background-color: #99e1ff;
+}
+.img:nth-child(2) {
+  background-color: #ff9999;
+}
+.img:nth-child(3) {
+  background-color: #f7ff99;
+}
+
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
+ -->
+ <!-- 
+    let img = document.getElementsByClassName("img");
+let desc = document.getElementById("desc");
+
+change = () => {
+  let scrollPosition = desc.scrollTop;
+  if (scrollPosition < 200) {
+    img[0].style.display = "flex";
+    img[1].style.display = "none";
+    img[2].style.display = "none";
+  } if (scrollPosition >= 200) {
+    img[0].style.display = "none";
+    img[1].style.display = "flex";
+    img[2].style.display = "none";
+  } if (scrollPosition >= 400){
+    img[0].style.display = "none";
+    img[1].style.display = "none";
+    img[2].style.display = "flex";
+  }
+}
+
+desc.addEventListener("scroll", change);
+  -->
